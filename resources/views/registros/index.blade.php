@@ -25,9 +25,24 @@
             <th></th>
         </tr>
     </thead>
-    
+
     <tbody>
-    
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+            
+                <a class="btn btn-warning" href="">Editar</a>
+            
+                <form action="" method="post" style="display:inline">
+                {{ method_field('DELETE') }}
+                    <button class="btn btn-danger" type="submit" onclick="return confirm('¿Desea borrarlo?');">Borrar</button>
+                </form>
+            
+            </td>
+        </tr>
     </tbody>
     
 </table>
